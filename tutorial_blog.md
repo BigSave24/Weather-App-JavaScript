@@ -1,4 +1,4 @@
-# H1 Using Git to Implement a New Feature/Change
+# Using Git to Implement a New Feature/Change
 
 
 In this this tutorial we are going to walk through the steps on how to implement a new feature without affecting the main branch using Git. Git is a version control system used manage code for projects such as software development and infrastructure deployments. This tutorial will use a current project to guide you through the process of implementing a new feature. You can fork this project or follow along using your own project.
