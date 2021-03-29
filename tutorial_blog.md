@@ -1,12 +1,12 @@
 # H1 Using Git to Implement a New Feature/Change
-================================================
+
 
 In this this tutorial we are going to walk through the steps on how to implement a new feature without affecting the main branch using Git. Git is a version control system used manage code for projects such as software development and infrastructure deployments. This tutorial will use a current project to guide you through the process of implementing a new feature. You can fork this project or follow along using your own project.
 
 ## Clone Repository
 -------------------
 We want to create a local copy of the project’s repository on our computer. Having a local copy of the repository allows us to work offline or continuing working if disconnected from the main repository. Copy the project’s repository clone HTTPS link. In your terminal, navigate to your project folder run the following command:
-> # create clone of existing repository
+> ###### \# create clone of existing repository
 ```
 $ git clone https://github.com/BigSave24/Weather-App-JavaScript.git
 Cloning into 'Weather-App-JavaScript'...
@@ -16,6 +16,7 @@ Unpacking objects: 100% (43/43), done.
 ```
 
 ## Create A New Feature Branch
+------------------------------
 Now, we want to create a new branch to add the new feature to the project. Creating a new branch allows main project files to remain in a working state while new features are created and tested. You’ll notice multiple use of the git branch command. Although, it is not necessary, it is good practice to use this command to verify creation and/or switching between branches. To create a new branch run the following commands:
 > # list branches
 ```
